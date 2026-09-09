@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "e_service_plesk": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": ["./src/server.js"],
+      "cwd": "C:\\Codex\\plugins\\e-service-plesk-mcp",
+      "env": {
+        "E_SERVICE_PLESK_API_URL": "${E_SERVICE_PLESK_API_URL}",
+        "E_SERVICE_PLESK_USERNAME": "${E_SERVICE_PLESK_USERNAME}",
+        "E_SERVICE_PLESK_PASSWORD": "${E_SERVICE_PLESK_PASSWORD}"
+      }
+    }
+  }
+}
