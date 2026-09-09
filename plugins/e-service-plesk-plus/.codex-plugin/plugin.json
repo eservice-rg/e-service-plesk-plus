@@ -1,0 +1,7 @@
+{
+  "name": "e-service-plesk-plus",
+  "version": "1.0.0",
+  "displayName": "e-Service Plesk Plus",
+  "description": "Read-only Plesk inspection and controlled XML operations for e-Service.",
+  "mcpServers": "./.mcp.json"
+}
