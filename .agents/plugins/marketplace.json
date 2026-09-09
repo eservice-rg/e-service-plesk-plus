@@ -1,0 +1,20 @@
+{
+  "name": "e-service-plesk-plus",
+  "interface": {
+    "displayName": "e-Service Plesk Plus"
+  },
+  "plugins": [
+    {
+      "name": "e-service-plesk-plus",
+      "source": {
+        "source": "local",
+        "path": "./plugins/e-service-plesk-plus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
